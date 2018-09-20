@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefsimple\simple_app.cc">
+      <Filter>cefsimple</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefsimple\simple_handler.cc">
+      <Filter>cefsimple</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefsimple\cefsimple_win.cc">
+      <Filter>cefsimple</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefsimple\simple_handler_win.cc">
+      <Filter>cefsimple</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefsimple\simple_app.h">
+      <Filter>cefsimple</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefsimple\simple_handler.h">
+      <Filter>cefsimple</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefsimple\resource.h">
+      <Filter>cefsimple</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefsimple\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefsimple\res\cefsimple.ico">
+      <Filter>cefsimple\res</Filter>
+    </None>
+    <None Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefsimple\res\small.ico">
+      <Filter>cefsimple\res</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefsimple\cefsimple.rc">
+      <Filter>cefsimple</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="cefsimple">
+      <UniqueIdentifier>{7B60609C-109A-3CF8-9E94-C2AE8AD1B3DC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cefsimple\res">
+      <UniqueIdentifier>{09EB312C-E387-3DD9-AF20-369BFDA202E2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

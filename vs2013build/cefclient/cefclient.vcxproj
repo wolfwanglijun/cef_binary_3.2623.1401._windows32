@@ -1,0 +1,598 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DA20CB61-2929-3B0A-85D8-E4E3831C303D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>cefclient</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\vs2013build\cefclient\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">cefclient.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">cefclient</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\vs2013build\cefclient\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">cefclient.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">cefclient</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4100;4127;4244;4481;4512;4701;4702;4996</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;WIN32;_WIN32;_WINDOWS;UNICODE;_UNICODE;WINVER=0x0602;_WIN32_WINNT=0x602;NOMINMAX;WIN32_LEAN_AND_MEAN;_HAS_EXCEPTIONS=0;PSAPI_VERSION=1;CEF_USE_SANDBOX;CEF_USE_ATL;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;_WIN32;_WINDOWS;UNICODE;_UNICODE;WINVER=0x0602;_WIN32_WINNT=0x602;NOMINMAX;WIN32_LEAN_AND_MEAN;_HAS_EXCEPTIONS=0;PSAPI_VERSION=1;CEF_USE_SANDBOX;CEF_USE_ATL;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Adding manifest...															</Message>
+      <Command>setlocal
+mt.exe -nologo -manifest "C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/cefclient/resources/win/cefclient.exe.manifest" "C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/cefclient/resources/win/compatibility.manifest" -outputresource:"C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/vs2013build/cefclient/Debug/cefclient.exe";#1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\Users\zyb\Documents\work\代码管理\Cmake\cmake-3.11.0-rc2-win64-x64\bin\cmake.exe -E copy_if_different C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/Debug/d3dcompiler_43.dll C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/vs2013build/cefclient/Debug/d3dcompiler_43.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\Users\zyb\Documents\work\代码管理\Cmake\cmake-3.11.0-rc2-win64-x64\bin\cmake.exe -E copy_if_different C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/Debug/d3dcompiler_47.dll C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/vs2013build/cefclient/Debug/d3dcompiler_47.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\Users\zyb\Documents\work\代码管理\Cmake\cmake-3.11.0-rc2-win64-x64\bin\cmake.exe -E copy_if_different C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/Debug/libcef.dll C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/vs2013build/cefclient/Debug/libcef.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\Users\zyb\Documents\work\代码管理\Cmake\cmake-3.11.0-rc2-win64-x64\bin\cmake.exe -E copy_if_different C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/Debug/libEGL.dll C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/vs2013build/cefclient/Debug/libEGL.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\Users\zyb\Documents\work\代码管理\Cmake\cmake-3.11.0-rc2-win64-x64\bin\cmake.exe -E copy_if_different C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/Debug/libGLESv2.dll C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/vs2013build/cefclient/Debug/libGLESv2.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\Users\zyb\Documents\work\代码管理\Cmake\cmake-3.11.0-rc2-win64-x64\bin\cmake.exe -E copy_if_different C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/Debug/natives_blob.bin C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/vs2013build/cefclient/Debug/natives_blob.bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\Users\zyb\Documents\work\代码管理\Cmake\cmake-3.11.0-rc2-win64-x64\bin\cmake.exe -E copy_if_different C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/Debug/snapshot_blob.bin C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/vs2013build/cefclient/Debug/snapshot_blob.bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\Users\zyb\Documents\work\代码管理\Cmake\cmake-3.11.0-rc2-win64-x64\bin\cmake.exe -E copy_if_different C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/Debug/wow_helper.exe C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/vs2013build/cefclient/Debug/wow_helper.exe
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\Users\zyb\Documents\work\代码管理\Cmake\cmake-3.11.0-rc2-win64-x64\bin\cmake.exe -E copy_if_different C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/Resources/cef.pak C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/vs2013build/cefclient/Debug/cef.pak
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\Users\zyb\Documents\work\代码管理\Cmake\cmake-3.11.0-rc2-win64-x64\bin\cmake.exe -E copy_if_different C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/Resources/cef_100_percent.pak C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/vs2013build/cefclient/Debug/cef_100_percent.pak
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\Users\zyb\Documents\work\代码管理\Cmake\cmake-3.11.0-rc2-win64-x64\bin\cmake.exe -E copy_if_different C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/Resources/cef_200_percent.pak C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/vs2013build/cefclient/Debug/cef_200_percent.pak
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\Users\zyb\Documents\work\代码管理\Cmake\cmake-3.11.0-rc2-win64-x64\bin\cmake.exe -E copy_if_different C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/Resources/cef_extensions.pak C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/vs2013build/cefclient/Debug/cef_extensions.pak
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\Users\zyb\Documents\work\代码管理\Cmake\cmake-3.11.0-rc2-win64-x64\bin\cmake.exe -E copy_if_different C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/Resources/devtools_resources.pak C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/vs2013build/cefclient/Debug/devtools_resources.pak
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\Users\zyb\Documents\work\代码管理\Cmake\cmake-3.11.0-rc2-win64-x64\bin\cmake.exe -E copy_if_different C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/Resources/icudtl.dat C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/vs2013build/cefclient/Debug/icudtl.dat
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\Users\zyb\Documents\work\代码管理\Cmake\cmake-3.11.0-rc2-win64-x64\bin\cmake.exe -E copy_directory C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/Resources/locales C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/vs2013build/cefclient/Debug/locales
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\Debug\libcef.lib;..\libcef_dll\Debug\libcef_dll_wrapper.lib;comctl32.lib;rpcrt4.lib;shlwapi.lib;ws2_32.lib;glu32.lib;opengl32.lib;..\..\Debug\cef_sandbox.lib;dbghelp.lib;psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/vs2013build/cefclient/Debug/cefclient.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/vs2013build/cefclient/Debug/cefclient.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <Manifest>
+      <AdditionalManifestFiles>C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\resources\win\cefclient.exe.manifest;</AdditionalManifestFiles>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4100;4127;4244;4481;4512;4701;4702;4996</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;_NDEBUG;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;WIN32;_WIN32;_WINDOWS;UNICODE;_UNICODE;WINVER=0x0602;_WIN32_WINNT=0x602;NOMINMAX;WIN32_LEAN_AND_MEAN;_HAS_EXCEPTIONS=0;PSAPI_VERSION=1;CEF_USE_SANDBOX;CEF_USE_ATL;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_NDEBUG;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;_WIN32;_WINDOWS;UNICODE;_UNICODE;WINVER=0x0602;_WIN32_WINNT=0x602;NOMINMAX;WIN32_LEAN_AND_MEAN;_HAS_EXCEPTIONS=0;PSAPI_VERSION=1;CEF_USE_SANDBOX;CEF_USE_ATL;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Adding manifest...															</Message>
+      <Command>setlocal
+mt.exe -nologo -manifest "C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/cefclient/resources/win/cefclient.exe.manifest" "C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/cefclient/resources/win/compatibility.manifest" -outputresource:"C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/vs2013build/cefclient/Release/cefclient.exe";#1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\Users\zyb\Documents\work\代码管理\Cmake\cmake-3.11.0-rc2-win64-x64\bin\cmake.exe -E copy_if_different C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/Release/d3dcompiler_43.dll C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/vs2013build/cefclient/Release/d3dcompiler_43.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\Users\zyb\Documents\work\代码管理\Cmake\cmake-3.11.0-rc2-win64-x64\bin\cmake.exe -E copy_if_different C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/Release/d3dcompiler_47.dll C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/vs2013build/cefclient/Release/d3dcompiler_47.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\Users\zyb\Documents\work\代码管理\Cmake\cmake-3.11.0-rc2-win64-x64\bin\cmake.exe -E copy_if_different C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/Release/libcef.dll C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/vs2013build/cefclient/Release/libcef.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\Users\zyb\Documents\work\代码管理\Cmake\cmake-3.11.0-rc2-win64-x64\bin\cmake.exe -E copy_if_different C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/Release/libEGL.dll C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/vs2013build/cefclient/Release/libEGL.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\Users\zyb\Documents\work\代码管理\Cmake\cmake-3.11.0-rc2-win64-x64\bin\cmake.exe -E copy_if_different C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/Release/libGLESv2.dll C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/vs2013build/cefclient/Release/libGLESv2.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\Users\zyb\Documents\work\代码管理\Cmake\cmake-3.11.0-rc2-win64-x64\bin\cmake.exe -E copy_if_different C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/Release/natives_blob.bin C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/vs2013build/cefclient/Release/natives_blob.bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\Users\zyb\Documents\work\代码管理\Cmake\cmake-3.11.0-rc2-win64-x64\bin\cmake.exe -E copy_if_different C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/Release/snapshot_blob.bin C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/vs2013build/cefclient/Release/snapshot_blob.bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\Users\zyb\Documents\work\代码管理\Cmake\cmake-3.11.0-rc2-win64-x64\bin\cmake.exe -E copy_if_different C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/Release/wow_helper.exe C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/vs2013build/cefclient/Release/wow_helper.exe
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\Users\zyb\Documents\work\代码管理\Cmake\cmake-3.11.0-rc2-win64-x64\bin\cmake.exe -E copy_if_different C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/Resources/cef.pak C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/vs2013build/cefclient/Release/cef.pak
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\Users\zyb\Documents\work\代码管理\Cmake\cmake-3.11.0-rc2-win64-x64\bin\cmake.exe -E copy_if_different C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/Resources/cef_100_percent.pak C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/vs2013build/cefclient/Release/cef_100_percent.pak
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\Users\zyb\Documents\work\代码管理\Cmake\cmake-3.11.0-rc2-win64-x64\bin\cmake.exe -E copy_if_different C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/Resources/cef_200_percent.pak C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/vs2013build/cefclient/Release/cef_200_percent.pak
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\Users\zyb\Documents\work\代码管理\Cmake\cmake-3.11.0-rc2-win64-x64\bin\cmake.exe -E copy_if_different C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/Resources/cef_extensions.pak C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/vs2013build/cefclient/Release/cef_extensions.pak
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\Users\zyb\Documents\work\代码管理\Cmake\cmake-3.11.0-rc2-win64-x64\bin\cmake.exe -E copy_if_different C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/Resources/devtools_resources.pak C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/vs2013build/cefclient/Release/devtools_resources.pak
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\Users\zyb\Documents\work\代码管理\Cmake\cmake-3.11.0-rc2-win64-x64\bin\cmake.exe -E copy_if_different C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/Resources/icudtl.dat C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/vs2013build/cefclient/Release/icudtl.dat
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\Users\zyb\Documents\work\代码管理\Cmake\cmake-3.11.0-rc2-win64-x64\bin\cmake.exe -E copy_directory C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/Resources/locales C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/vs2013build/cefclient/Release/locales
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\Release\libcef.lib;..\libcef_dll\Release\libcef_dll_wrapper.lib;comctl32.lib;rpcrt4.lib;shlwapi.lib;ws2_32.lib;glu32.lib;opengl32.lib;..\..\Release\cef_sandbox.lib;dbghelp.lib;psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/vs2013build/cefclient/Release/cefclient.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/vs2013build/cefclient/Release/cefclient.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <Manifest>
+      <AdditionalManifestFiles>C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\resources\win\cefclient.exe.manifest;</AdditionalManifestFiles>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/cefclient/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Users\zyb\Documents\work\代码管理\Cmake\cmake-3.11.0-rc2-win64-x64\bin\cmake.exe -HC:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32 -BC:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/vs2013build --check-stamp-file C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/vs2013build/cefclient/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/cefclient/CMakeLists.txt;C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\CMakeLists.txt;C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\vs2013build\cefclient\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/cefclient/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Users\zyb\Documents\work\代码管理\Cmake\cmake-3.11.0-rc2-win64-x64\bin\cmake.exe -HC:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32 -BC:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/vs2013build --check-stamp-file C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/vs2013build/cefclient/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/zyb/Documents/work/output/4_libcef/2018-9-19编译/cef_binary_3.2623.1401.gb90a3be_windows32/cefclient/CMakeLists.txt;C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\CMakeLists.txt;C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\vs2013build\cefclient\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\binding_test.cc" />
+    <ClInclude Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\binding_test.h" />
+    <ClCompile Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\browser_window.cc" />
+    <ClInclude Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\browser_window.h" />
+    <ClCompile Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\bytes_write_handler.cc" />
+    <ClInclude Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\bytes_write_handler.h" />
+    <ClCompile Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\client_app_browser.cc" />
+    <ClInclude Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\client_app_browser.h" />
+    <ClCompile Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\client_app_delegates_browser.cc" />
+    <ClCompile Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\client_handler.cc" />
+    <ClInclude Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\client_handler.h" />
+    <ClCompile Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\client_handler_osr.cc" />
+    <ClInclude Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\client_handler_osr.h" />
+    <ClCompile Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\client_handler_std.cc" />
+    <ClInclude Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\client_handler_std.h" />
+    <ClInclude Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\client_types.h" />
+    <ClCompile Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\dialog_test.cc" />
+    <ClInclude Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\dialog_test.h" />
+    <ClCompile Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\geometry_util.cc" />
+    <ClInclude Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\geometry_util.h" />
+    <ClCompile Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\main_context.cc" />
+    <ClInclude Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\main_context.h" />
+    <ClCompile Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\main_context_impl.cc" />
+    <ClInclude Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\main_context_impl.h" />
+    <ClCompile Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\main_message_loop.cc" />
+    <ClInclude Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\main_message_loop.h" />
+    <ClCompile Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\main_message_loop_std.cc" />
+    <ClInclude Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\main_message_loop_std.h" />
+    <ClInclude Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\osr_dragdrop_events.h" />
+    <ClCompile Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\osr_renderer.cc" />
+    <ClInclude Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\osr_renderer.h" />
+    <ClCompile Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\preferences_test.cc" />
+    <ClInclude Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\preferences_test.h" />
+    <ClInclude Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\resource.h" />
+    <ClInclude Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\resource_util.h" />
+    <ClCompile Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\response_filter_test.cc" />
+    <ClInclude Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\response_filter_test.h" />
+    <ClCompile Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\root_window.cc" />
+    <ClInclude Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\root_window.h" />
+    <ClCompile Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\root_window_manager.cc" />
+    <ClInclude Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\root_window_manager.h" />
+    <ClCompile Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\scheme_test.cc" />
+    <ClInclude Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\scheme_test.h" />
+    <ClInclude Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\temp_window.h" />
+    <ClCompile Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\test_runner.cc" />
+    <ClInclude Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\test_runner.h" />
+    <ClCompile Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\urlrequest_test.cc" />
+    <ClInclude Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\urlrequest_test.h" />
+    <ClCompile Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\window_test.cc" />
+    <ClInclude Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\window_test.h" />
+    <ClCompile Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\common\client_app.cc" />
+    <ClInclude Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\common\client_app.h" />
+    <ClCompile Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\common\client_app_delegates_common.cc" />
+    <ClCompile Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\common\client_app_other.cc" />
+    <ClInclude Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\common\client_app_other.h" />
+    <ClCompile Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\common\client_switches.cc" />
+    <ClInclude Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\common\client_switches.h" />
+    <ClCompile Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\common\scheme_test_common.cc" />
+    <ClInclude Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\common\scheme_test_common.h" />
+    <ClCompile Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\renderer\client_app_delegates_renderer.cc" />
+    <ClCompile Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\renderer\client_app_renderer.cc" />
+    <ClInclude Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\renderer\client_app_renderer.h" />
+    <ClCompile Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\renderer\client_renderer.cc" />
+    <ClInclude Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\renderer\client_renderer.h" />
+    <ClCompile Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\renderer\performance_test.cc" />
+    <ClInclude Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\renderer\performance_test.h" />
+    <ClInclude Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\renderer\performance_test_setup.h" />
+    <ClCompile Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\renderer\performance_test_tests.cc" />
+    <None Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\resources\binding.html" />
+    <None Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\resources\dialogs.html" />
+    <None Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\resources\localstorage.html" />
+    <Image Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\resources\logo.png" />
+    <None Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\resources\osr_test.html" />
+    <None Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\resources\other_tests.html" />
+    <None Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\resources\pdf.html" />
+    <None Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\resources\pdf.pdf" />
+    <None Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\resources\performance.html" />
+    <None Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\resources\performance2.html" />
+    <None Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\resources\preferences.html" />
+    <None Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\resources\response_filter.html" />
+    <None Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\resources\transparency.html" />
+    <None Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\resources\urlrequest.html" />
+    <None Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\resources\window.html" />
+    <None Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\resources\xmlhttprequest.html" />
+    <ClCompile Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\cefclient_win.cc" />
+    <ClCompile Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\browser_window_osr_win.cc" />
+    <ClInclude Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\browser_window_osr_win.h" />
+    <ClCompile Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\browser_window_std_win.cc" />
+    <ClInclude Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\browser_window_std_win.h" />
+    <ClCompile Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\main_context_impl_win.cc" />
+    <ClCompile Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\main_message_loop_multithreaded_win.cc" />
+    <ClInclude Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\main_message_loop_multithreaded_win.h" />
+    <ClCompile Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\osr_dragdrop_win.cc" />
+    <ClInclude Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\osr_dragdrop_win.h" />
+    <ClCompile Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\osr_window_win.cc" />
+    <ClInclude Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\osr_window_win.h" />
+    <ClCompile Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\resource_util_win.cc" />
+    <ClCompile Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\root_window_win.cc" />
+    <ClInclude Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\root_window_win.h" />
+    <ClCompile Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\temp_window_win.cc" />
+    <ClInclude Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\temp_window_win.h" />
+    <ClCompile Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\util_win.cc" />
+    <ClInclude Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\util_win.h" />
+    <ClCompile Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\browser\window_test_win.cc" />
+    <None Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\resources\win\cefclient.ico" />
+    <ResourceCompile Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\resources\win\cefclient.rc" />
+    <None Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\cefclient\resources\win\small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\vs2013build\ZERO_CHECK.vcxproj">
+      <Project>{DC0F3D8B-2F45-3FB2-A0AD-6E76A83C52C4}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\zyb\Documents\work\output\4_libcef\2018-9-19编译\cef_binary_3.2623.1401.gb90a3be_windows32\vs2013build\libcef_dll\libcef_dll_wrapper.vcxproj">
+      <Project>{40D46250-4813-3CBE-9808-8B546EDADD4B}</Project>
+      <Name>libcef_dll_wrapper</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
